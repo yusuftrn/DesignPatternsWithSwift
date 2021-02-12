@@ -1,4 +1,5 @@
 //SOLID: Single Resposibility Principle
+
 import Foundation
 
 class Journal: CustomStringConvertible {

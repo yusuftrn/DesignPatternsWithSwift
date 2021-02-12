@@ -8,6 +8,8 @@
 
 /* Begin PBXFileReference section */
 		884C71D525D5F1E10046FCD9 /* LSP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LSP.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		887664B025D5FC2A0016E059 /* ISP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ISP.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		887664B125D6017E0016E059 /* DIP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DIP.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		88DEB0AC25D5DFFA00945F96 /* SRP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SRP.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		88DEB0AD25D5E60C00945F96 /* OCP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OCP.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -29,6 +31,8 @@
 				88DEB0AC25D5DFFA00945F96 /* SRP.playground */,
 				88DEB0AD25D5E60C00945F96 /* OCP.playground */,
 				884C71D525D5F1E10046FCD9 /* LSP.playground */,
+				887664B025D5FC2A0016E059 /* ISP.playground */,
+				887664B125D6017E0016E059 /* DIP.playground */,
 			);
 			path = 0_SOLID;
 			sourceTree = "<group>";

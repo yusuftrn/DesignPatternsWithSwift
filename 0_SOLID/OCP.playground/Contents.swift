@@ -1,4 +1,5 @@
 //SOLID: Open Closed Principle
+
 import Foundation
 
 enum Color {
