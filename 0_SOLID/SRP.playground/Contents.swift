@@ -20,10 +20,8 @@ class Journal: CustomStringConvertible {
 		return entries.joined(separator: "\n")
 	}
 	
-	func save(_ filename:  String, _ overwrite: Bool = false){
-		//save to a file
-	}
-	
+	//These methods violates SRP. So we have to extern them. Class Persistence can handle i/o problems.
+	func save(_ filename:  String, _ overwrite: Bool = false){//save to a file}
 	func load(_ filename: String) {}
 	func load(_ url: URL) {}
 }
@@ -32,6 +30,10 @@ class Persistence {
 	func saveToFile(_ journal: Journal, _ filename: String, _ overwrite: Bool = false) {
 		print("\n\nFile saved:\n\(journal)\nto \(filename)")
 	}
+	
+	func loadFromFile(_ journal: Journal, _ filename: String) {}
+	
+	func loadFromURL(_ journal: Journal, _ url: URL) {}
 }
 
 func main() {
