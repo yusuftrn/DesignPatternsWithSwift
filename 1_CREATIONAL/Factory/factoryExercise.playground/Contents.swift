@@ -36,7 +36,6 @@ class Evaluate {
 		print(p2.description)
 	}
 }
-
 let test = Evaluate()
 test.simpleTest()
 
